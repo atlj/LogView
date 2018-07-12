@@ -7,7 +7,7 @@ EDITOR = os.environ.get("EDITOR", "vim")
 
 class miniconfig:
     def __init__(self):
-        self.name = "logviewer.conf"
+        self.name = ".logviewer.conf"
         self.dir = cdir
         self.table = {}
 
